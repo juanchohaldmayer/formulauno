@@ -1,0 +1,332 @@
+ @font-face {
+      font-family: "Formula1 Display Regular";
+      src: url("font/formula1-regular-web-0.ttf");
+    }
+/*---------------------------INDEX-------------------------------*/
+body{
+	background-color: #FAF7EA;
+	font-family: "Formula1 Display Regular";
+}
+.navbar-title {
+		color: white;
+		margin: 0;
+		font-size: 2em;
+		background-color: red;
+		color: white;
+		font-family: "Formula1 Display Regular";
+	}
+.navbar {
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+}
+.navbar-links {
+    margin-top: 10px;
+}
+
+.navbar-links a {
+	color: white;
+	background-color: red;
+	transition: background-color 0.5s;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+.navbar-links a:hover {
+    background-color: black;
+}
+
+h2{
+	margin-bottom: 10px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 40px;
+	
+}
+p{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+ul{
+	margin-left: 31px;
+}
+.lista{
+color: red;
+background-color: none;	
+}
+
+.lista:hover{
+	background-color: black;
+	color: white;
+}
+.seguir-leyendo{
+	text-align: center;
+	color: red;
+	background-color: white;	
+}
+.seguir-leyendo:hover{
+	background-color: black;
+	color: black;
+}
+.index-banner{
+	display: block;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+
+/*---------------------------RESTO DE LAS COSAS----------------------------*/
+.competidores_titulo{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.competidores_imagenes{
+display: block; 
+margin: auto;
+border-radius: 10px;	
+}
+.competidores_names{
+	margin-left: 30%;
+}
+.competidores_textos{
+	text-indent: justify;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.mail{
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+/*---------------------------CONTACTO STYLES------------------------------------*/
+.contact-info {
+    background-color: rgba(235, 49, 49, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-icon {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.contact-icon i {
+    font-size: 2em;
+}
+
+.contact-form {
+    background-color: rgba(235, 49, 49, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label {
+    margin: 10px 0 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form input[type="submit"] {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: darkred;
+}
+/*------------------------------------ Ver f1 estilos ------------------------------------ */
+.intro {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.streaming-options ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.streaming-options li {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.streaming-options a {
+    color: white;
+    text-decoration: none;
+}
+
+.streaming-options a:hover {
+    text-decoration: underline;
+}
+
+.race-calendar {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.race-calendar table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.race-calendar th, .race-calendar td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.race-images {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.race-images .race-img {
+    width: 100%;
+    max-width: 600px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.social-media {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* estilos generales de color del ver f1*/
+.race-calendar,
+.intro,
+.streaming-options,
+.race-images,
+.latest-news,
+.social-media {
+    background-color: rgba(255, 0, 0, 0.5);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+/*centrar link de f1 a el h2 */
+
+.social-media {
+    background-color: rgba(235, 49, 49, 0.5);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center; 
+}
+
+.social-links {
+    margin-top: 10px; 
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px; 
+}
+/* autos css mas detallado*/
+
+section.auto-gallery, section.points-table {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section.auto-gallery h2, section.points-table h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #343a40;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #343a40;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
